@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "479598029738",
+    "firebase_url": "https://gymawy-98ce7.firebaseio.com",
+    "project_id": "gymawy-98ce7",
+    "storage_bucket": "gymawy-98ce7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479598029738:android:52233a6e5cbb77a6",
+        "android_client_info": {
+          "package_name": "com.github.rowanmohamed.al3abyala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479598029738-uv82tmr03imgq05sbhvjf2niql1egdau.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.github.rowanmohamed.al3abyala",
+            "certificate_hash": "e0f133654530d78627e25211b6722af748b8924b"
+          }
+        },
+        {
+          "client_id": "479598029738-mgce787r30hid2v87n0j4elreeac2u3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhfKobZlOaBdEfpWUcaOe_6N_aG7hHl58"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479598029738-mgce787r30hid2v87n0j4elreeac2u3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
