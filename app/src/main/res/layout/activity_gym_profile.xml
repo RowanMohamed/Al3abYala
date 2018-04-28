@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.GymProfile"
+    android:weightSum="100">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:id="@+id/image"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/image_name"
+    android:layout_marginLeft="120dp"
+    android:layout_marginTop="20dp"
+    android:text="GymName"
+    android:textSize="25sp"
+    android:textColor="#000"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/image_location"
+       android:layout_marginLeft="120dp"
+       android:layout_marginTop="10dp"
+       android:text="GymLocation"
+       android:textSize="25sp"
+       android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_phone"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:text="GymPhone"
+        android:textSize="25sp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_time"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:text="GymTime"
+        android:textSize="25sp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_website"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:text="GymWebsite"
+        android:textSize="25sp"
+        android:textColor="#000"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/booking"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Booking Option"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+</LinearLayout>

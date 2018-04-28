@@ -37,6 +37,10 @@ public class LoginActivity extends AppCompatActivity {
 
     private void openHome() {
         // TODO: 4/11/2018 open Home activity
+        Intent intent = new Intent(this, GymList.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
     }
 
     private void login() {
